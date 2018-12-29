@@ -1,0 +1,2 @@
+# glacier2_icegrid_bidir_demos
+ice基于glacier2 icegrid bidir这些功能组合的编程示例
