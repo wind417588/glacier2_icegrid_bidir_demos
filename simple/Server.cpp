@@ -44,7 +44,7 @@ main(int argc, char* argv[])
         // CommunicatorHolder's ctor initializes an Ice communicator,
         // and it's dtor destroys this communicator.
         //
-        Ice::CommunicatorHolder ich(argc, argv, "config.server");
+        Ice::CommunicatorHolder ich(argc, argv);
         communicator = ich.communicator();
 
         //
