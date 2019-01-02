@@ -1,0 +1,23 @@
+#
+# The IceGrid locator proxy.
+#
+#Ice.Default.Locator=DemoIceGrid/Locator:default -h 10.13.33.94 -p 4061:default -h 10.11.35.103 -p 4061
+Ice.Default.Locator=DemoIceGrid/Locator:default -h 10.13.33.94 -p 4061
+#Ice.Default.Locator=DemoIceGrid/Locator:default -h 10.11.33.173 -p 4061
+Ice.Trace.Locator=2
+IceGrid.Node.Trace.Adapter=2
+IceGrid.Node.Trace.Server=3
+
+
+#new add
+#CallbackSender.Proxy=sender:tcp -p 10000
+#Ice.Default.Host=localhost
+#Ice.Warn.Connections=1
+#end
+#
+# To use the IceGrid discovery plugin comment out the default locator
+# property above and un-comment the two properties below. The discovery
+# plugin uses multicast to discover IceGrid.
+#
+#Ice.Plugin.IceLocatorDiscovery=IceLocatorDiscovery:createIceLocatorDiscovery
+#IceLocatorDiscovery.InstanceName=DemoIceGrid
